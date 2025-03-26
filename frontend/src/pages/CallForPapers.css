@@ -1,0 +1,180 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px; /* Add more space below h1 */
+  text-transform: uppercase; /* Optional: Make the title more striking */
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px; /* More space below h2 */
+  border-bottom: 2px solid #3498db; /* Add a bottom border for emphasis */
+  padding-bottom: 10px; /* Add padding to the bottom of h2 */
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px; /* Slightly reduce margin for h3 */
+  color: #34495e; /* Slightly different color for better hierarchy */
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem; /* Increase font size for better readability */
+  line-height: 1.6; /* Increase line height for better spacing */
+  color: #555; /* Slightly lighter color for body text */
+}
+
+ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  list-style: inside square; /* Change list style to make it more unique */
+}
+
+li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.main-content {
+  padding: 20px;
+  max-width: 1200px; /* Set a max-width for content to prevent it from stretching too much */
+  margin: 0 auto; /* Center content */
+}
+
+.section {
+  padding: 40px 20px;
+  background-color: #fff; /* Set a white background for each section */
+  border-radius: 8px; /* Add rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Add spacing between sections */
+}
+
+.section-title {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.section-content {
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: auto;
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+.button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.cp-page-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensure it adjusts for smaller screens */
+}
+
+.cp-content {
+  width: 100%;
+  max-width: 70%; /* Max width to ensure the content is well-aligned */
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.faq2-box {
+  width: 100%;
+  max-width: 380px;
+  background-color: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto; /* Adjust height to fit content */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.faq2-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.submit-paper-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.submit-paper-button:hover {
+  background-color: #2980b9;
+}
